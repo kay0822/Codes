@@ -2,13 +2,20 @@ AM_CXXFLAGS = -std=c++11
 
 bin_PROGRAMS = 
 
-bin_PROGRAMS += type
-type_SOURCES = type.cpp
+bin_PROGRAMS += type_demo
+type_demo_SOURCES = type_demo.cpp
 
-bin_PROGRAMS += sstream
-sstream_SOURCES = sstream.cpp
+bin_PROGRAMS += sstream_demo
+sstream_demo_SOURCES = sstream_demo.cpp
 
-bin_PROGRAMS += template
-template_SOURCES = template.cpp
+bin_PROGRAMS += template_demo
+template_demo_SOURCES = template_demo.cpp
 
+bin_PROGRAMS += namespace_demo
+namespace_demo_SOURCES = namespace_demo.cpp
 
+bin_PROGRAMS += test
+test_SOURCES = test.cpp
+
+bin_PROGRAMS += new_demo
+new_demo_SOURCES = new_demo.cpp
