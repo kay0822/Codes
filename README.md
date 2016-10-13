@@ -1,4 +1,4 @@
 Codes
 =====
 
-My Onw Code Repo
+My Own Code Repo

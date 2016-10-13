@@ -15,7 +15,10 @@ bin_PROGRAMS += namespace_demo
 namespace_demo_SOURCES = namespace_demo.cpp
 
 bin_PROGRAMS += test
-test_SOURCES = test.cpp
+test_SOURCES = test.cc
 
 bin_PROGRAMS += new_demo
 new_demo_SOURCES = new_demo.cpp
+
+bin_PROGRAMS += inherite_demo
+inherite_demo_SOURCES = inherite_demo.cpp
